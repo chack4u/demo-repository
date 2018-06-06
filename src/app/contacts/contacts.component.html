@@ -1,0 +1,8 @@
+<div *ngFor="let contact of contacts">
+    <ul>
+     <li (click)="toggle($event)" class="parent" >
+       {{contact.name}}
+       <contacts  [contacts]="contact.contacts" *ngIf="contact.contacts"  ></contacts>
+     </li>
+    </ul>
+  </div>

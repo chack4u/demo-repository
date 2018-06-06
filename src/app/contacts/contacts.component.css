@@ -1,0 +1,13 @@
+
+
+ul,li{
+    list-style-type: none;
+}
+
+
+.parent contacts{
+        display: none;
+    }
+.parent.open > contacts{
+        display: block;
+        }
